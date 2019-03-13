@@ -7,33 +7,35 @@ namespace FullName
         public static void Main()
         {
             // TODO: Ask the user for their first name and then their last name.
-            FullName_ReturnValue();
+            string firstName;
+            Console.WriteLine("What is your first name?");
+            firstName = Console.ReadLine();
 
-            // TODO: Call a method called FullName that returns their full name.
+            string lastName;
+            Console.WriteLine("What is your last name?");
+            lastName = Console.ReadLine();
 
-            // TODO: Output their full name.
+            FullName(firstName,lastName);
 
-            Console.ReadLine();
+              Console.ReadLine();
         }
 
-        private static void FullName_ReturnValue()
+        public static void FullName(2)
         {
-            string Main_FirstName;
-            Console.WriteLine("What is your first name?");
-            Main_FirstName = Console.ReadLine();
+            //string firstname;
+            //Console.WriteLine("What is your first name?");
+            //firstname = Console.ReadLine();
 
-            string Main_LastName;
-            Console.WriteLine("What is your last name?");
-            Main_LastName = Console.ReadLine();
-
-            string Main_FullName;
-            Console.WriteLine(Main_FirstName + " " + Main_LastName);
-            Main_FullName = Console.ReadLine();
+            //string lastName;
+            //Console.WriteLine("What is your last name?");
+            //lastName = Console.ReadLine();
+            Console.WriteLine(firstName + " " + lastName);
+            
             
 
         }
 
 
-        // TODO: Create a method call FullName that takes the firstName and lastName as parameters.
+        
     }
 }
