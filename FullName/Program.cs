@@ -15,17 +15,17 @@ namespace FullName
             Console.WriteLine("What is your last name?");
             lastName = Console.ReadLine();
 
-            FullName(firstName,lastName);
-
+            Console.WriteLine(FullName(firstName,lastName));
+            
             Console.ReadLine();
         }
 
-        public static void FullName(string firstName, string lastName)
+        public static string FullName(string firstName, string lastName)
         {
             
             string fullName = firstName + " " + lastName;
 
-            return FullName;
+            return fullName;
         }
 
 
