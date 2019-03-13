@@ -26,8 +26,9 @@ namespace FullName
             Console.WriteLine("What is your last name?");
             Main_LastName = Console.ReadLine();
 
+            string Main_FullName;
             Console.WriteLine(Main_FirstName + " " + Main_LastName);
-
+            Main_FullName = Console.ReadLine();
             
 
         }
